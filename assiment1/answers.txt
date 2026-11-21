@@ -1,0 +1,12 @@
+بتكا ةميق ferh يتلا طبرت فلم SSC نم لك ةحفص، ركذاو مسا ةحفصلا بناجب اهراسم.
+
+index.html -> href="styles.css"
+pages/courses.html -> href="../styles.css"
+
+
+ـلاrotceleS يذلا سنيّق ةلاح سروكلا لمتكملا، حرشاو طبضلاب يأّ رصنع هقباطي.
+
+Selector حالة الكورس المكتمل:
+.course-card[data-status="full"] .status
+
+الشرح: بيختار العنصر اللي عليه class="status"، بشرط يكون جوا عنصر عليه class="course-card" وقيمة data-status تبعه بتساوي "full" بالضبط.
